@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d0d0d;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(pux.jpg);
+}
+
+div {
+  background: linear-gradient(145deg, #8000a8, #4b006e);
+  color: white;
+  border-radius: 15px;
+  padding: 35px;
+  width: 90%;
+  max-width: 600px;
+  min-height: 500px;
+  box-shadow: 0 0 25px rgba(128, 0, 168, 0.4);
+}
+
+h2 {
+  background-color: transparent;
+  color: greenyellow;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+form input {
+  width: 100%;
+  max-width: 400px;
+  height: 50px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  padding: 0 15px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+form input:focus {
+  border-color: greenyellow;
+  box-shadow: 0 0 10px rgba(173, 255, 47, 0.4);
+}
+
+form button {
+  background-color: forestgreen;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: white;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background-color: greenyellow;
+  color: #222;
+  transform: scale(1.03);
+}
