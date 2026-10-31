@@ -1,6 +1,6 @@
-# Aula de Desenvolvimento Frontend
+# Aula de Programação Web 
 
-Este repositório foi criado com o objetivo de acompanhar minha evolução nos estudos de **desenvolvimento frontend**.
+Este repositório foi criado com o objetivo de acompanhar minha evolução nos estudos de **Programação Web**.
 
 Durante as aulas, aprendi e pratiquei diversos conceitos fundamentais de HTML e CSS, registrando anotações e exemplos práticos para fixação do conteúdo.
 
