@@ -1,0 +1,51 @@
+/*config gerais da pagina */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  animation: 10s ease infinite;
+  background-size: 400% 400%;
+  font-family: arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: rgba(2, 12, 68, 0.781);
+
+  width: 320px;
+  padding: 25px;
+  border-radius: 12px;
+  color: white;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  outline: none;
+}
+form button{
+    width: 100%;
+    padding: 12px;
+    background-color: #0288c1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+form button:hover{
+    background-color: rgba(201, 17, 130, 0.699)
+    ;
+}
